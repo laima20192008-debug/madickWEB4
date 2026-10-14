@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Шапка формы с цветом #0F6B5F */
+.card-header-custom {
+    background-color: #0F6B5F;
+    font-weight: 600;
+}
+
+/* Кастомные цвета фокуса и кнопок */
+.btn-warning {
+    background-color: #F2A93B !important;
+    border-color: #F2A93B !important;
+}
+
+.btn-outline-success {
+    color: #0F6B5F;
+    border-color: #0F6B5F;
+}
+
+.btn-outline-success:hover, .btn-check:checked + .btn-outline-success {
+    background-color: #0F6B5F;
+    border-color: #0F6B5F;
+    color: white;
+}
